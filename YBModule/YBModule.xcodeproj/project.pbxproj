@@ -14,6 +14,7 @@
 		6CDFE15D26144B9F003C8D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CDFE15C26144B9F003C8D4C /* Assets.xcassets */; };
 		6CDFE16026144B9F003C8D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CDFE15E26144B9F003C8D4C /* LaunchScreen.storyboard */; };
 		6CDFE16326144B9F003C8D4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDFE16226144B9F003C8D4C /* main.m */; };
+		6CDFE16D26144C5A003C8D4C /* BXIMCommonDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDFE16B26144C5A003C8D4C /* BXIMCommonDB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		6CDFE15F26144B9F003C8D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CDFE16126144B9F003C8D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CDFE16226144B9F003C8D4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CDFE16B26144C5A003C8D4C /* BXIMCommonDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXIMCommonDB.m; sourceTree = "<group>"; };
+		6CDFE16C26144C5A003C8D4C /* BXIMCommonDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXIMCommonDB.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		6CDFE14F26144B9D003C8D4C /* YBModule */ = {
 			isa = PBXGroup;
 			children = (
+				6CDFE16A26144C2C003C8D4C /* DataBase */,
 				6CDFE15026144B9D003C8D4C /* AppDelegate.h */,
 				6CDFE15126144B9D003C8D4C /* AppDelegate.m */,
 				6CDFE15326144B9D003C8D4C /* SceneDelegate.h */,
@@ -74,6 +78,15 @@
 				6CDFE16226144B9F003C8D4C /* main.m */,
 			);
 			path = YBModule;
+			sourceTree = "<group>";
+		};
+		6CDFE16A26144C2C003C8D4C /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				6CDFE16C26144C5A003C8D4C /* BXIMCommonDB.h */,
+				6CDFE16B26144C5A003C8D4C /* BXIMCommonDB.m */,
+			);
+			path = DataBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CDFE16D26144C5A003C8D4C /* BXIMCommonDB.m in Sources */,
 				6CDFE15826144B9D003C8D4C /* ViewController.m in Sources */,
 				6CDFE15226144B9D003C8D4C /* AppDelegate.m in Sources */,
 				6CDFE16326144B9F003C8D4C /* main.m in Sources */,
